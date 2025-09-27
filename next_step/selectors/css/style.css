@@ -1,0 +1,25 @@
+* {
+    font-family: sans-serif;
+    border: 1px solid red;
+}
+
+body {
+    font-size: 22px;
+}
+
+p {
+    color:red;
+}
+
+.first {
+    color: blue;
+}
+
+.second {
+    color: green;
+}
+
+.highlight {
+    background-color: gold;
+    text-transform: capitalize;
+}
