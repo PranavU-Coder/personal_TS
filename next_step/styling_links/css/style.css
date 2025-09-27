@@ -1,0 +1,32 @@
+/* reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 1.5rem;
+    padding: 10%;
+    line-height: 1.5;
+}
+
+a {
+    color: aqua;
+    text-decoration: none;
+}
+
+/* pseudo-class definition */
+
+a:visited {
+    color: chocolate;
+}
+
+a:hover {
+    color: chartreuse;
+    text-decoration: underline;
+}

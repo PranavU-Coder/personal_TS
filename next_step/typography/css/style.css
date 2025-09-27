@@ -1,0 +1,32 @@
+/* reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 1.5rem;
+    padding: 10%;
+    line-height: 1.5;
+}
+
+input, button {
+    font: inherit;
+    text-indent: 2em;
+}
+
+.border {
+    border: 10px dotted limegreen;
+    margin:1.5em;
+    padding: 1.5em;
+    outline: 5px ridge gold;
+}
+
+.strike {
+    text-decoration: line-through;
+}
