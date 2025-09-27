@@ -1,0 +1,32 @@
+/* reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 1.5rem;
+    padding: 10%;
+    line-height: 1.5;
+}
+
+ol {
+    list-style-type: lower-greek;
+    color: cornflowerblue;
+}
+
+ul {
+    list-style-type: square;
+    color: crimson;
+    list-style-position: inside;
+    list-style: square url(../assets/yep.png) inside;
+}
+
+ul li:nth-child(2) {
+    color: olivedrab;
+}
