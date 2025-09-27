@@ -1,0 +1,66 @@
+/* reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 1.5rem;
+    line-height: 5.6rem;
+    text-transform: capitalize;
+    text-align: center;
+    margin: 0 auto 1 rem;
+}
+
+li {
+    border-bottom: 2px dotted whitesmoke;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: limegreen;
+    text-decoration: none;
+}
+
+/*pseudo-classes*/
+
+a:visited{
+    color: cadetblue;
+}
+
+a:hover {
+    color: darkcyan;
+}
+
+a:focus {
+    color:slategrey;
+    background-color: cadetblue;
+    opacity: 0.25;
+}
+
+li a {
+    display: block;
+}
+/*classes*/
+
+.container {
+    border: 10px ridge lightsalmon;
+    padding: 1.5em;
+    outline: 5px dotted gold;
+    border-radius: 2rem;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: goldenrod;
+    padding: 1.2rem;
+    
+}
