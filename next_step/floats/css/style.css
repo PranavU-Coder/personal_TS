@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    text-transform: capitalize;
+}
+
+.block {
+    width: 30vw;
+    height: 30vw;
+    background-color: white;
+    color: black;
+    padding: 1rem;
+}
+
+.left {
+    float: left;
+    margin-right: 1rem;
+}
+
+.clear {
+    clear: left;
+}
+
+section {
+    background-color: darkred;
+    border: 1px solid darkcyan;
+    padding: 1rem;
+}
