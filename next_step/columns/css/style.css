@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    text-transform: capitalize;
+    padding: 10%;
+}
+
+.columns {
+    column-count: 4;
+    column-width: 250px;
+    column-rule: 3px solid wheat;
+    column-gap: 3rem;
+}
