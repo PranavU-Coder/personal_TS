@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: whitesmoke;
+    font-family: 'Jetbrains-Mono', monospace;
+    min-height: 100vh;
+    background-image: radial-gradient(gold,crimson);
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+header , footer {
+    position: sticky;
+    background-color: black;
+    color: wheat;
+    text-align: center;
+}
+
+header {
+    top: 0;
+    padding: 0.5rem;
+}
+
+footer {
+    bottom: 0;
+}
+
+main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:1.5rem;
+    padding: 1.5rem;
+}
+
+nav {
+    background-color: darkcyan;
+    color: black;
+    padding: 0.5rem;
+    border-bottom: 6px double gray;
+    outline: 3px ridge gold;
+    font-weight: bolder;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:hover, a:focus {
+    color: darkturquoise;
+}
+
+.card {
+    scroll-margin-top: 8rem;
+    width: min(100%, 350px);
+    background-color: darkslateblue;
+    border: 2px dotted silver;
+    border-radius: 20px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card figure {
+    display: flex;
+    flex-flow: column-nowrap;
+}
+
+.card figcaption {
+    font-weight: bolder;
+    font-size: 2rem;
+    margin: 1rem;
+    text-align: center;
+}
+
+figure img {
+    width: 100%;
+    height: auto;
+    min-width: 100px;
+    border: 8px double darkgreen;
+    outline: 4px ridge darkviolet;
+    border-radius: 50%;
+}
