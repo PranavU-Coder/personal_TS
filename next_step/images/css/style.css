@@ -1,0 +1,48 @@
+/* reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: dimgrey;
+    color: white;
+    font-family: 'JetBrains Mono', monospace;
+    min-height: 100vh;
+}
+
+img {
+    display: block;
+}
+
+.profile {
+    width: 35%;
+}
+
+.profile img {
+    width: 100%;
+    height: auto;
+    min-width: 100px;
+    border: 8px double gold;
+    outline: 4px ridge slateblue;
+    border-radius: 50%;
+}
+
+.h1{
+    font-size: 3rem;
+    text-shadow: 2px 2px 5px blue;
+}
+
+.hero {
+    border-bottom: 10px solid wheat;
+    padding: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+    background-image: url(../assets/map.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
