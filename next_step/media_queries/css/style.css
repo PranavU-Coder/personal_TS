@@ -1,0 +1,57 @@
+/* RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Jetbrains-Mono', monospace;
+    min-height: 100vh;
+    background-color: gray;
+    background-image: radial-gradient(whitesmoke,wheat);
+    display: flex;
+    flex-direction: column;
+}
+
+header, main, nav, footer {
+    display: grid;
+    place-content: center;
+    grid-template-columns: 100%;
+    text-align: center;
+}
+
+header, footer {
+    position: sticky;
+    background-color: cadetblue;
+    color: bisque;
+}
+
+header {
+    top: 0;
+}
+
+footer {
+    bottom: 0;
+}
+
+main {
+    flex-grow: 1;
+}
+
+nav {
+    background-color: chartreuse;
+    color: blanchedalmond;
+    padding: 0.5rem;
+    border-bottom: 5px ridge sandybrown;
+}
+
+@media screen and (min-width: 576px){
+    body{
+        background-color: aqua;
+    }
+    nav{
+        display: none;
+    }
+}
